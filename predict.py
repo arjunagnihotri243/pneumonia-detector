@@ -11,6 +11,6 @@ def prepare(file_path):
 
 model = tf.keras.models.load_model("models/model.model")
 
-
-prediction = model.predict([prepare('xray_dataset_covid19/test/PNEUMONIA/SARS-10.1148rg.242035193-g04mr34g0-Fig8c-day10.jpeg')])
+filePath = input("Enter File Path of Image you want to predict: ")
+prediction = model.predict([prepare(filePath)])
 print(CATEGORIES[int(prediction[0][0])])
