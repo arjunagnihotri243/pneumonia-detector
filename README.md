@@ -13,7 +13,7 @@ numpy
 
 
 Running Instructions :
-After Cloning the git repository,
+After Cloning the git repository (REMEMVER CLONING PRODUCTION BRANCH),
 
 Run predict.py with the command: py predict.py
 Enter file path of the image you want to predict using forward slashes '/'
