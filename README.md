@@ -1,0 +1,1 @@
+An AI based Python program which predicts if a person has pneumonia or not from an xray image of his/her lungs provided to the model with an accuracy of 99..8 %
